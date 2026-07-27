@@ -1,6 +1,6 @@
 # Springboot-Beginner-BI-Cohort-3
 <p align="center">
-  <img src="![lifecycle of loading a modern web application (HTML/CSS/JS + Spring Boot backend + CDN + Cache + DB)](BigPicture.png)" width="900">
+  <img src="BigPicture.png" width="900">
 </p>
 
 <details>
