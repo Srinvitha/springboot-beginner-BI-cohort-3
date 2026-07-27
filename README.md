@@ -15,7 +15,7 @@
 8 → Request Images/Static Assets
 9 → CDN Lookup
 10 → CDN Response
-11 → Browser Render (DOM + CSSOM + Paint)
+11 → Browser Render
 12 → Frontend API Call
 13 → Backend Response (after Cache/DB)
 </details>
