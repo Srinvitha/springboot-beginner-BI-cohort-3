@@ -1,4 +1,28 @@
 h1{
-    test-align: center;
+    text-align: center;
     color: rgb(255, 0, 187);
+}
+
+.navbar {
+    border-width: 2px;
+    border-color: rgb(184, 181, 181);
+    border-style: solid;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(167, 212, 241);
+}
+
+.navbar a{
+    padding: 25px;
+    text-decoration: none;
+    color: rgb(111, 2, 2);
+}
+
+.navbar a:hover {
+    color: rgb(171, 243, 172);
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(79, 80, 79);
 }
