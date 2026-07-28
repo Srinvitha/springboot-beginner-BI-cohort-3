@@ -5,7 +5,7 @@ h1{
 
 .navbar {
     border-width: 2px;
-    border-color: rgb(184, 181, 181);
+    border-color: rgb(140, 110, 239);
     border-style: solid;
     padding: 20px;
     text-align: center;
@@ -19,7 +19,7 @@ h1{
 }
 
 .navbar a:hover {
-    color: rgb(171, 243, 172);
+    color: rgb(8, 86, 10);
 }
 
 body {
@@ -45,8 +45,33 @@ body {
 }
 
 .card button {
-    width: 70%;
-    padding: 8px;
-    margin-bottom: 20px;
+    width: 72%;
+    padding: 12px 16px;
+    margin: 6px 0 22px;
     cursor: pointer;
+    border: 0;
+    border-radius: 999px;
+    background: linear-gradient(135deg, rgb(255, 98, 98), rgb(50, 90, 235));
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    box-shadow: 0 10px 24px rgba(255, 127, 80, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(255, 127, 80, 0.45);
+    filter: brightness(1.03);
+}
+
+.card button:active {
+    transform: translateY(0);
+    box-shadow: 0 8px 18px rgba(255, 127, 80, 0.3);
+}
+
+.card button:focus-visible {
+    outline: 3px solid rgba(255, 255, 255, 0.75);
+    outline-offset: 3px;
 }
