@@ -2,14 +2,14 @@
 
 var users = [
     {
-        "image" : "/images/girl.png",
-        "name" : "John Doe",
-        "gender" : "Male"
+        "image" : "/Practice/images/girl.png",
+        "name" : "Aria",
+        "gender" : "Female"
     },
     {
-        "image" : "/images/boy.png",
-        "name" : "Jane Doe",
-        "gender" : "Female"
+        "image" : "/Practice/images/boy.png",
+        "name" : "Lucian",
+        "gender" : "Male"
     }
 ]
 
@@ -24,5 +24,4 @@ function toggleUser(){
     userImage.src = users[id].image;
     userName.innerHTML = users[id].name;
     userGender.innerHTML = users[id].gender;
-
 }
