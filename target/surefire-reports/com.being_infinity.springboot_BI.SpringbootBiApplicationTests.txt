@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.being_infinity.springboot_BI.SpringbootBiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.695 s -- in com.being_infinity.springboot_BI.SpringbootBiApplicationTests
