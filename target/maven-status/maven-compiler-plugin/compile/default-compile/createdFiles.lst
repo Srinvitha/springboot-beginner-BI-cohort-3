@@ -1,1 +1,5 @@
+com\being_infinity\springboot_BI\models\User.class
 com\being_infinity\springboot_BI\SpringbootBiApplication.class
+com\being_infinity\springboot_BI\controller\HomeController.class
+com\being_infinity\springboot_BI\controller\UserController.class
+com\being_infinity\springboot_BI\services\UserService.class
