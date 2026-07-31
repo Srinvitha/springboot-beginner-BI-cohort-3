@@ -10,4 +10,8 @@ public class HomeController {
     public String home() {
         return "redirect:/Practice/index.html";
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e5768cf1430dd1684dabbc48a49255a86c77fbed
