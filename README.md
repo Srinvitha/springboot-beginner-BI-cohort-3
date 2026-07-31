@@ -19,3 +19,6 @@
 12 → Frontend API Call
 13 → Backend Response (after Cache/DB)
 </details>
+
+## Live Demo
+**Live Application:** https://springboot-bi.onrender.com
