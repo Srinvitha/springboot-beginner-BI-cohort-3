@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.being_infinity.springboot_BI.models.User;
-
+import java.util.Random;
 @Service
 public class UserService {
 
@@ -62,4 +62,16 @@ public class UserService {
         }
         return false;
     }
+}
+
+public User getRandomUser() {
+
+    if (allUsers.isEmpty()) {
+        return null;
+    }
+
+    Random random = new Random();
+    int index = random.nextInt(allUsers.size());
+
+    return allUsers.get(index);
 }

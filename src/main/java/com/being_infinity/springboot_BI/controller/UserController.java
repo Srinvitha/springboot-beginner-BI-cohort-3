@@ -23,13 +23,13 @@ public class UserController {
         return userService.getAllUsers();
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<User> getUserById(@PathVariable int id) {
+    @GetMapping("/random")
+    public ResponseEntity<User> getRandomUser() {
 
-        User temp = userService.getUserById(id);
+        User user = userService.getRandomUser();
 
-        if (temp != null) {
-            return ResponseEntity.ok(temp);
+        if (user != null) {
+            return ResponseEntity.ok(user);
         }
 
         return ResponseEntity.notFound().build();

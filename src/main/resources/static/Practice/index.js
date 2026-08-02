@@ -46,3 +46,22 @@ function randomUser(){
             console.log(err);
         })
     }
+
+function myRandomUser() {
+
+    fetch("/api/users/random")
+        .then(function(res) {
+            return res.json();
+        })
+        .then(function(data) {
+
+            document.getElementById("user-image").src = data.image;
+            document.getElementById("user-name").innerHTML = data.name;
+            document.getElementById("user-gender").innerHTML = data.gender;
+
+        })
+        .catch(function(err) {
+            console.log(err);
+        });
+
+}
