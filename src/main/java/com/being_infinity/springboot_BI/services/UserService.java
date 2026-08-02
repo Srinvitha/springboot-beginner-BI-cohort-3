@@ -62,16 +62,15 @@ public class UserService {
         }
         return false;
     }
-}
 
-public User getRandomUser() {
+    public User getRandomUser() {
+        if (allUsers.isEmpty()) {
+            return null;
+        }
 
-    if (allUsers.isEmpty()) {
-        return null;
+        Random random = new Random();
+        int index = random.nextInt(allUsers.size());
+
+        return allUsers.get(index);
     }
-
-    Random random = new Random();
-    int index = random.nextInt(allUsers.size());
-
-    return allUsers.get(index);
 }
